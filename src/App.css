@@ -1,0 +1,86 @@
+* {
+  box-sizing: revert;
+}
+
+main {
+  height: calc(100vh - 56px);
+  margin-top: 100px;
+}
+
+.hero {
+  background: url("../public/mymind-XUlsF9LYeVk-unsplash.jpg") no-repeat fixed
+    center center/cover;
+  height: 100%;
+  color: white;
+}
+
+.card {
+  padding: 0;
+  filter: saturate(25%);
+}
+
+img.full {
+  width: 90%;
+}
+.normal {
+  background-color: #a8a77a !important;
+}
+.fire {
+  background-color: #ee8130 !important;
+}
+.water {
+  background-color: #6390f0 !important;
+}
+.grass {
+  background-color: #7ac74c !important;
+}
+.electric {
+  background-color: #f7d02c !important;
+}
+.ice {
+  background-color: #96d9d6 !important;
+}
+.fighting {
+  background-color: #c22e28 !important;
+}
+.poison {
+  background-color: #a33ea1 !important;
+}
+.ground {
+  background-color: #e2bf65 !important;
+}
+.flying {
+  background-color: #a98ff3 !important;
+}
+.psychic {
+  background-color: #f95587 !important;
+}
+.bug {
+  background-color: #a6b91a !important;
+}
+.rock {
+  background-color: #b6a136 !important;
+}
+.ghost {
+  background-color: #735797 !important;
+}
+.dark {
+  background-color: #705746 !important;
+}
+.dragon {
+  background-color: #6f35fc !important;
+}
+.steel {
+  background-color: #b7b7ce !important;
+}
+.fairy {
+  background-color: #d685ad !important;
+}
+
+.card-title {
+  text-transform: uppercase;
+}
+
+.card:hover {
+  filter: saturate(75%);
+}
